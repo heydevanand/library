@@ -13,7 +13,7 @@ const app = express();
 // Set up mongoose connection
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
-const mongoDB = "mongodb+srv://heydevanand:466453@dev-cluster.okxr9gy.mongodb.net/?retryWrites=true&w=majority";
+const mongoDB = "mongodb+srv://heydevanand:engineerdev@dev-cluster.okxr9gy.mongodb.net/?retryWrites=true&w=majority";
 
 main().catch((err) => console.log(err));
 async function main() {
